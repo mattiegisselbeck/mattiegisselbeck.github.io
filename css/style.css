@@ -374,7 +374,7 @@ blockquote {
 -------------------------------------------------------------*/
 
 .link:before {
-    background-color: #F1F3F6;
+    background-color: #000000;
     bottom: 0;
     content: '';
     height: 30%;
@@ -389,7 +389,7 @@ blockquote {
 }
 
 a .link:hover {
-    color: #2c2c2c;
+    color: #0000FF;
 }
 
 a.button {
@@ -435,7 +435,7 @@ a.button.dark:hover {
 }
 
 #header.transparent {
-    background-color: transparent;
+    background-color: #fff;
 }
 
 #header .header-wrapper {
@@ -822,12 +822,12 @@ a.button.dark:hover {
 .team-social li a {
     font-size: 13px;
     font-weight: 300;
-    color: #787878;
+    color: #000000;
     letter-spacing: 0;
 }
 
 .team-social li a:hover {
-    color: #2c2c2c;
+    color: #0000FF;
 }
 
 .progress {
@@ -2005,7 +2005,7 @@ textarea {
 }
 
 #footer .footer-socials a:hover {
-    color: #2c2c2c;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -2373,7 +2373,7 @@ textarea {
         background-color: #fff;
     }
 
-    #header .container {
+    #header.container {
         padding: 0 0;
     }
 

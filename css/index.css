@@ -61,6 +61,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: "Helvetica Neue";
     color: #000000;
     margin-top: 0;
     margin-bottom: 15px;
@@ -291,7 +292,7 @@ h6 {
 }
 
 .white-text {
-    color: #000000;
+    color: #fff;
 }
 
 .light-bg {
@@ -319,7 +320,10 @@ h2 {
 }
 
 h3 {
+    font-family: "Helvetica Neue";
     font-size: 22px;
+    font-weight: 350;
+    color: #fff;
 }
 
 h4 {
@@ -344,6 +348,7 @@ p {
 }
 
 p.summary-text {
+    font-family: 'Poppins', sans-serif;
     color: #2c2c2c;
     font-size: 18px;
     line-height: 30px;
@@ -351,7 +356,7 @@ p.summary-text {
 
 li {
     font-size: 16px;
-    padding-left: 40px;
+    padding-left: 0px;
     font-weight: 300;
     color: #787878;
     margin-bottom: 10px;
@@ -367,7 +372,31 @@ blockquote {
     background: #f8f8f8;
 }
 
+.side {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
 
+.sideright {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+  }
+  
 
 /*-----------------------------------------------------------
     3. Buttons & Links
@@ -415,7 +444,7 @@ a.button.dark {
 }
 
 a.button.dark:hover {
-    background: transparent;
+    background: #fff;
     color: #2c2c2c;
 }
 
@@ -435,7 +464,7 @@ a.button.dark:hover {
 }
 
 #header.transparent {
-    background-color: transparent;
+    background-color: #fff;
 }
 
 #header .header-wrapper {
@@ -519,8 +548,8 @@ a.button.dark:hover {
 }
 
 .flexnav li a {
-    background: #fff;
-    color: #222;
+    background:;
+    color: #;
     display: block;
     padding: 20px 0;
     z-index: 2
@@ -610,6 +639,7 @@ a.button.dark:hover {
 }
 
 #header.transparent.white-bg {
+    font-family: "Helvetica Neue";
     background-color: #fff;
 }
 
@@ -648,7 +678,28 @@ a.button.dark:hover {
     width: 60px;
 }
 
+.ion-social-linkedin {
+color: #fff;
+height: 20px;
+width: 20px;
+font-size: 2.1em;
+}
 
+.ion-social-dribbble-outline {
+    color: #fff;
+    padding-left: 0.3em;
+    height: 20px;
+    width: 20px;
+    font-size: 2.1em;
+}
+
+.ion-social-github {
+    color: #fff;
+    padding-left: 0.3em;
+height: 20px;
+width: 20px;
+font-size: 2.1em;
+}
 
 
 /*-----------------------------------------------------------
@@ -777,7 +828,7 @@ a.button.dark:hover {
 }
 
 .fixed-img2 {
-    background-image: url("../images/about/edren_nuruu.jpg");
+    background-image: url("../images/about/3.svg");
     height: 600px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -820,8 +871,8 @@ a.button.dark:hover {
 
 .team-social li a {
     font-size: 15px;
-    font-weight: 400;
-    color: #fff;
+    font-weight: 300;
+    color: #000000;
     letter-spacing: 0;
 }
 
@@ -1186,7 +1237,7 @@ a.button.dark:hover {
 
 .portfolio-text h3 {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     margin: 20px 0 10px;
 }
 
@@ -1999,9 +2050,15 @@ textarea {
     font-size: 13px;
     font-weight: 400;
     color: #787878;
-    display: inline-block;
+    display: ;
     margin-left: 15px;
 }
+#footer .footer-socials icon {
+    color: #fff;
+
+}
+
+
 
 #footer .footer-socials a:hover {
     color: #2c2c2c;
@@ -2029,6 +2086,10 @@ textarea {
 }
 
 
+#testdiv {
+    border-left: 10px solid #000;
+    border-right: 10px solid #fff;
+  }
 
 
 /*-----------------------------------------------------------
@@ -2102,7 +2163,7 @@ textarea {
     }
 
     .flexnav.standard li {
-        background: transparent none repeat scroll 0 0;
+        background: #fff;
         margin-left: 40px;
         position: relative;
         list-style: none;
@@ -2115,7 +2176,7 @@ textarea {
     }
 
     .flexnav.standard li a {
-        background: transparent none repeat scroll 0 0;
+        background: #fff;
         position: relative;
         border-bottom: none;
         border-left: medium none;
@@ -2207,11 +2268,12 @@ textarea {
         content: none;
     }
 
-    .flexnav.standard li ul li a {
-        padding: 0 20px 10px;
+    .flexnav.standard ul li a {
+        font-family: "Helvetica Neue";
+        padding: 0 1px 1px;
         font-weight: 400;
         text-transform: ;
-        color: #787878!important;
+        color: #000000!important;
         -webkit-transition: all 0.05s ease-in-out;
         -moz-transition: all 0.05s ease-in-out;
         -o-transition: all 0.05s ease-in-out;
@@ -2497,7 +2559,6 @@ textarea {
         left: 20px;
         font-size: 16px;
     }
-}
 
 @media all and (max-width: 576px) { 
     .about-me .page-title {

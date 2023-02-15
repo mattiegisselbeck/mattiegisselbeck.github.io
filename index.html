@@ -9,6 +9,8 @@
     <!-- Links -->
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+    <link href="css/ionicons.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
     <link href="css/plugins.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
     <!-- Document Title -->
@@ -17,9 +19,17 @@
 
 <body>
 <!-- Page Wrapper -->
+  <!-- Page content -->
+  <div class="main">
+    ...
+  </div>
     <div id="page-wrapper">
         <!-- Header -->
         <header id="header" class="transparent scroll-hide">
+            <div class="side">
+              </div>
+              <div class="sideright">
+            </div>
             <div class="header-wrapper">
                 <div class="container">
                     <div id="logo">
@@ -27,18 +37,23 @@
                             <img src="images/logo.png" alt="Logo"> 
                         </a>
                     </div>
+
                     <nav>
-                        <div class="menu-button menu-open off-canvas"><i class="open-icon ion-android-menu"></i><i class="close-icon ion-android-close"></i></div>
-                        <ul class="flexnav standard off-canvas" data-breakpoint="800">
-                            <li><a href="index.html">Home</a>
-                            <li><a href="about-me.html">About</a></li>
-                            <li><a href="resume.html">Resume</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
+        
+                        <div class="menu-button menu-open"><i class="open-icon ion-android-menu"></i><i class="close-icon ion-android-close"></i></div>
+                        
+                        <div class="flexnav standard" data-breakpoint="800">
+                            <br>
+                            <ul><li><a href="index.html">Home</a></li> 
+                            <li><a href="about-me.html">About</a></li> 
+                            <li><a href="portfolio.html">Porfolio</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </nav>
+            
                 </div>
             </div>
+            
         </header>
         <!-- Header Ends -->
         <!-- Hero Section -->
@@ -46,12 +61,16 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div id="hero-slider" class="owl-carousel owl-theme">
-                        <div class="item" style="background: url(images/bg/mcmurdoic_oli_2013334_lrg2.jpg); background-size: cover;">
+                        <div class="item" style="background-image:url('images/bg/pineisland_oli_2017264_lrg.jpg');background-size: cover;background-repeat: no-repeat;">
                             <div class="caption white-text">
                                 <div class="container">
                                     <h2>Mattie Gisselbeck</h2>
                                     <h3>Graduate Student at the University of Minnesota</h3>
+                        
+                                    </div>
                                 </div>
+                            </div>
+                                
                             </div>
                         </div>
                                 </div>
@@ -73,7 +92,7 @@
             <footer id="footer">
                 <div class="row">
                     <div class="col-xs-12 col-md-6 copyrights">
-                            <p>&COPY; Mattie Gisselbeck</p>
+                            <p>&COPY; 2017 Blend</p>
                         </div>
                         <div class="col-xs-12 col-md-6 footer-socials">
                             <a href="https://www.linkedin.com/in/mattiegisselbeck/">LinkedIn</a>
@@ -83,6 +102,8 @@
                 </div>
             </footer>
         </div>
+        <!-- Footer Ends -->
+    </div>
         <!-- Footer Ends -->
         <span class="scrolltotop"><i class="ion-ios-arrow-thin-up"></i></span>
     </div>
