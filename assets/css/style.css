@@ -337,8 +337,8 @@ main.drake-main {
     margin-bottom: 30px;
 }
 .responsive-sidebar-menu .sidebar-menu-inner .menu-wrap .menu li a {
-    display: flex;
-    align-items: center;
+    display: ;
+    align-items: left;
     gap: 10px;
 }
 .responsive-sidebar-menu .sidebar-menu-inner .menu-wrap .menu li a:hover span {
