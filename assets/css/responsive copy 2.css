@@ -75,7 +75,7 @@
     }
     .resume-area,
     .about-area {
-        padding-bottom: 10px;
+        padding-bottom: 50px;
     }
     .about-area .about-content p {
         max-width: 100%;
@@ -92,7 +92,7 @@
     .services-items .service-item {
         margin-bottom: 0;
         padding: 30px 30px 30px 30px;
-        width: 100%;
+        width: 50.3333%;
     }
     .services-items .service-item h2 {
         font-size: 20px;
@@ -246,9 +246,8 @@
         margin-bottom: 20px;
     }
     .services-items {
-        display: flex;
-        gap: 15px;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     .services-items .service-item {
         width: 100%;

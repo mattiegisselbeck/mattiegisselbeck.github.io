@@ -649,11 +649,19 @@ main.drake-main {
 
 /* 05 - Section Header */
 .section-header h1 {
-    font-size: 48px;
+    font-size: 35px;
     line-height: 60px;
     color: #fff;
     font-weight: 300;
-    margin-bottom: 33px;
+    margin-bottom: 20px;
+}
+
+.section-header h2 {
+    font-size: 72px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 50px;
 }
 .section-header h1 span {
     color: var(--primary_color);
@@ -742,9 +750,9 @@ linear-gradient(0deg, rgba(31,31,31,1) 0%, rgba(0,0,0,1) 100%);*/
     z-index: 3;
 }
 .hero-section .hero-content h1 {
-    font-size: 55px;
+    font-size: 45px;
     letter-spacing: -0.2px;
-    line-height: 75px;
+    line-height: 60px;
     margin-bottom: 30px;
     font-weight: 300;
 }
@@ -865,8 +873,8 @@ body .body-overlay {
 
 /* 11 - Resume */
 .resume-area {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .resume-area .resume-content .resume-timeline .item {
     position: relative;
@@ -965,7 +973,7 @@ body .body-overlay {
 .services-items .service-item p {
     font-size: 14px;
     color: #999999;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .services-items .service-item .projects {
     font-size: 12px;
